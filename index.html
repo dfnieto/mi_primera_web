@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Primera clase html</title>
+	<script src="https://kit.fontawesome.com/81016d2a26.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!--
+	<div>
+		<h1>Primera clase </h1>
+		<h2>prueba</h2>
+		<h3>prueba</h3>
+		<h4>prueba</h4>
+		<h5>prueba</h5>
+		<h6>prueba</h6>
+	</div>
+	<div>
+		<ol>
+			<ul>lista uno</ul>
+			<ul>lista dos</ul>
+			<ul>lista tres</ul>
+		</ol>
+	</div>
+	-->
+	<div>
+		<header>
+			<div>
+				<a href="https://fontawesome.com/kits/81016d2a26/setup">
+					<!--colocar logo-->
+					<!--<i class="fa-solid fa-vr-cardboard logo" ></i>-->
+					<i class="logo">sd</i>
+				</a>
+			</div>
+			<nav>
+				<!--navegador para moviles-->
+				<input type="checkbox" id="check" />
+				<label for="check" class="checkbtn">
+					<i class="fa-solid fa-bars"></i>
+				</label>
+				<ul>
+					<li>Inicio</li>
+					<li>Acerca de</li>
+					<li>Proyectos</li>
+					<li>Contacto</li>
+				</ul>
+			</nav>
+
+
+		</header>
+		<main id="seccion-principal">
+			<section class="seccion-1">
+				<div class="acerca-de">
+					<p class="titulo">Acerca de mi</p>
+					<p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+					<p class="parrafo2">Hola soy Daniel Nieto, nací en el Departamento del Cauca en el Suroccidente Colombiano y tengo 23 años. Estoy tomando este curso porque creo que el saber programar es tan importante hoy en dia como antes era el poder leer.</p>
+				</div>
+				<div class="acerca-imagen">
+					<img src="img/ovejas.jpg" alt="imagen aleatorea">
+				</div>
+			</section>
+			<section class="seccion-2">
+				<!--<img src="img/carrusel-img.png" alt="imagen de carrusel">-->
+				<div class="descripcion-imagen">
+					<img src="img/monta.jpg" alt="imagen aleatorea">
+					<p>dffddddddddddddd dddddd dddddddddd ddddddd ddd dddddd ddddddd ddddddddddd ddddd ddd dddddddddddddddd dddddddddd dddd ddddddddd dddddddddddddd dddddddddddddddd dddddddd ddddddddddd ddddddddddd</p>
+				</div>
+				<div class="descripcion-imagen">
+					<img src="img/pajaro.jpg" alt="imagen aleatorea">
+					<p>dffddddddddddddd dddddd dddddddddd ddddddd ddd dddddd ddddddd ddddddddddd ddddd ddd dddddddddddddddd dddddddddd dddd ddddddddd dddddddddddddd dddddddddddddddd dddddddd ddddddddddd ddddddddddd</p>
+				</div>
+				<div class="descripcion-imagen">
+					<img src="img/camello.jpg" alt="imagen aleatorea">
+					<p>dffddddddddddddd dddddd dddddddddd ddddddd ddd dddddd ddddddd ddddddddddd ddddd ddd dddddddddddddddd dddddddddd dddd ddddddddd dddddddddddddd dddddddddddddddd dddddddd ddddddddddd ddddddddddd</p>
+				</div>
+
+			</section>
+		</main>
+		<div class="formularioUnico">
+			<h1>Contacto</h1>
+			<p><em>¡Esperamos tu consulta!</em></p>
+			<!--inicia formulario-->
+			<form action="" method="get" class="formulario" id="formulario">
+				<div class="form-row">
+					<label for="nombre">Nombre</label>
+					<input id="nombre" name="nombre" type="text" />
+				</div>
+				<div class="form-row">
+					<label for="email">Email</label>
+					<input id="email" name="email" type="email" placeholder="pepe@gmail.com" required />
+				</div>
+				<div class="form-row">
+					<label for="mensaje">Mensaje</label>
+					<textarea id="mensaje" name="mensaje"></textarea>
+				</div>
+				<div class="form-row">
+<!--	boton de envio para formulario			-->
+					<button type="submit">Enviar</button>
+				</div>
+				<p class="alertas" id="alertas"></p>
+			</form>
+		</div>
+		<footer>
+			<section>
+				<h3>Redes sociales</h3>
+				<div>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Whatsapp</li>
+						<li><a href="https://lxp.egg.live/content/step/YVdTtbNMocDV4ganZsRGJ">Egg</a></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
