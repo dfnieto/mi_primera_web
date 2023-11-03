@@ -25,11 +25,11 @@ if (textoTitulo == "Nombre") {
 //cambiar texto
 let nombre = "DanielF";
 let ciudad = "Popayan";
-let gusto = "Motos";
+let gusto = "Motos doble proposito";
 //seleccionar parrafo
 let parrafo = document.querySelector(".parrafo2");
 function cambiarTexto(nombrep,ciudadp,gustop) {
-	let contenido = "Hola soy "+nombrep+", nací en el Departamento del Cauca en la ciudad de "+ciudadp+" y tengo 23 años. Estoy tomando este curso porque creo que el saber programar es tan importante hoy en dia como antes era el poder leer. Me gustan las "+gustop;
+	let contenido = "Hola soy "+nombrep+", nací en el Departamento del Cauca en la ciudad de "+ciudadp+" en el Suroccidente Colombiano y tengo 23 años. Estoy tomando este curso porque creo que el saber programar es tan importante hoy en dia como antes era el poder leer. Me gustan las "+gustop;
 	return contenido;
 }
 
